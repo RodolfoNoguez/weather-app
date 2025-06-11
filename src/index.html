@@ -1,11 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="outer-container">
+            <div class="container">
+                <div class="title">
+                    Weather App
+                </div>
+
+                <form class="form" id="form">
+                    <input 
+                        type="text"
+                        placeholder="Enter city name"
+                        id="city-input"
+                        required
+                        autocomplete="off"
+                    >
+                    <button type="submit" class="submit">get weather</button>
+                </form>
+                
+                <div id="weather-container" class="weather-container"></div>
+            </div>
+        </div>
+    </body>
 </html>
