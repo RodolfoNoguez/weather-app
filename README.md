@@ -17,4 +17,4 @@ to make webpack work some basic steps:
 
 5. to start the deveolpemental server npm run start
 
-
+6. to access server: http://localhost:8080
